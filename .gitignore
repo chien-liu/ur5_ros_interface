@@ -1,0 +1,5 @@
+venv/*
+documents/*
+ur5_socket/__pycache__/*
+
+*.pyc

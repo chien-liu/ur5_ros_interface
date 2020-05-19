@@ -27,7 +27,7 @@ Here you are, stay in this sceen.
 6. Start another terminal, `$ rosrun rqt_joint_trajectory_controller rqt_joint_tractory_controller
 `
 7. Now you control UR5 with GUI
-![](photos/Screenshot from 2020-05-19 18-14-49.jpg "")
+![](photos/Screenshot_from_2020-05-19_18-14-49.jpg "")
 
 It's important to reset joints' positions before turning off UR5. Here's the prosedure:
 ![](photos/IMG_20200519_181734.jpg "")

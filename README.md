@@ -11,8 +11,11 @@
     * [How to build up ROS Driver](#How-to-build-up-ROS-Driver)
 
 # Using-ASUS-X441S
+![](photos/IMG_20200519_220227.jpg "This one")
+(Should be at 637)
+
 UR5 Driver has been intalled.
-Here are the steps to control ur5 robot arm
+Here are the steps to control ur5 robot arm.
 ## Open ROS Driver
 1. Turn on UR5. It could take 2-3 minutes.
 ![](photos/IMG_20200519_180527.jpg "")
@@ -27,14 +30,14 @@ Here are the steps to control ur5 robot arm
 ![](photos/IMG_20200519_180825.jpg "")
 ![](photos/IMG_20200519_180834.jpg "")
 Here you are, stay in this sceen.
-3. Go to the laptop. Connect the Ethernet to UR5, and select wired conection *UR5*
-4. Go to terminal `$ roslaunch ur_robot_driver ur5_bringup.launch robot_ip:=192.168.56.101
+3. Go to the laptop. Connect the Ethernet to UR5 (the red wire), and select wired conection *UR5*
+4. Go to terminal<br> `$ roslaunch ur_robot_driver ur5_bringup.launch robot_ip:=192.168.56.101
 `
 5. Start UR5 program as the images show below
 ![](photos/IMG_20200519_181202.jpg "")
 
 ## Open GUI
-6. Start another terminal, `$ rosrun rqt_joint_trajectory_controller rqt_joint_tractory_controller
+6. Start another terminal<br> `$ rosrun rqt_joint_trajectory_controller rqt_joint_tractory_controller
 `
 7. Now you control UR5 with GUI
 ![](photos/Screenshot_from_2020-05-19_18-14-49.png "")

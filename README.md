@@ -7,7 +7,7 @@ Simple setup for controlling UR5, including:
 UR5 Driver has been intalled.
 Here are the steps to control ur5 robot arm
 1. Turn on UR5. It could take 2-3 minutes.
-![](IMG_20200519_180527.jpg "a")
+![](photos/IMG_20200519_180527.jpg "a")
 2. Follow the several steps as the images below
 3. Go to the laptop. Connect the Ethernet to UR5, and select wired conection *UR5*
 4. Go to terminal `$ roslaunch ur_robot_driver ur5_bringup.launch robot_ip:=192.168.56.101

@@ -1,16 +1,16 @@
 # UR5 manual for ElsaLab
 
-# Table of content
+# Table of contents
 * [Using ASUS X441S (white little laptop)](#Using-ASUS-X441S)
     * [Open ROS Driver](#Open-ROS-Driver)
     * [Open GUI](#Open-GUI)
-    * [Before turn off UR5](#Before-turn-off-UR5)
+    * [Before turning off UR5](#Before-turn-off-UR5)
 * [Build up ROS Driver on Your Own Computer](#Build-up-ROS-Driver-on-Your-Own-Computer)
     * [Laptop Requirements](#Laptop-Requirements)
     * [UR5 Information](#UR5-Information)
     * [How to build up ROS Driver](#How-to-build-up-ROS-Driver)
 
-# Using-ASUS-X441S
+# Using ASUS X441S
 ![](photos/IMG_20200519_220227.jpg "This one")
 (Should be at 637)
 
@@ -42,7 +42,7 @@ Here you are, stay in this sceen.
 7. Now you control UR5 with GUI
 ![](photos/Screenshot_from_2020-05-19_18-14-49.png "")
 
-## Before turn off UR5
+## Before turning off UR5
 It's important to reset joints' positions before turning off UR5. Here's the prosedure:
 ![](photos/IMG_20200519_181734.jpg "")
 ![](photos/IMG_20200519_181745.jpg "")
